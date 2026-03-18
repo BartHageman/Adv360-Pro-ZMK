@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: barthageman
+      url-base: https://github.com/BartHageman
   projects:
     - name: zmk
-      remote: refil
+      remote: barthageman
       revision: adv360-z3.5-2
       import: app/west.yml
   self:
